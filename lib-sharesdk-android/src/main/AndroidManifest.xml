@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gaosi.sharesdk">
+    <application>
+        <activity android:name="gaosi.com.learn.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:taskAffinity="gaosi.com.learn"
+            android:launchMode="singleTask"/>
+    </application>
+</manifest>
